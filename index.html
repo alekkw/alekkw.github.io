@@ -8,33 +8,47 @@
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
+            margin: 0;
+            padding: 0;
         }
-        .panel {
+        .container {
+            width: 60%;
             margin: 20px auto;
-            width: 80%;
-            background-color: grey;
+        }
+        .date-panel {
+            background-color: #333;
             padding: 20px;
             border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .date-title, .time, .members {
+            margin: 10px 0;
+        }
+        h1 {
+            padding: 20px 0;
         }
     </style>
 </head>
 <body>
-    <h1>3101 Calender</h1>
-    
-    <div class="panel">
-        <h2>12/21/2023</h2>
-        <p>Members Meeting:\n Alek</p>
-    </div>
-
-    <div class="panel">
-        <h2>12/22/2023</h2>
-        <p>Members Meeting:\n Alek</p>
-    </div>
-
-    <div class="panel">
-        <h2>12/23/2023</h2>
-        <p>Members Meeting:\n Alek</p>
+    <h1>3101 Calendar</h1>
+    <div class="container">
+        <div class="date-panel">
+            <div class="date-title">12/21/2023</div>
+            <div class="time">Meeting Time: TBD</div>
+            <div class="members">Members: Alek</div>
+        </div>
+        <div class="date-panel">
+            <div class="date-title">12/22/2023</div>
+            <div class="time">Meeting Time: TBD</div>
+            <div class="members">Members: Alek</div>
+        </div>
+        <div class="date-panel">
+            <div class="date-title">12/23/2023</div>
+            <div class="time">Meeting Time: TBD</div>
+            <div class="members">Members: Alek</div>
+        </div>
     </div>
 </body>
 </html>
+
 
